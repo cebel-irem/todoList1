@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="todo-header">
+            <h2>ToDo List</h2>
+            <img src="webProje.png" height="50px">
+        </div>
+    
+    
+        <div class="todo-body">
+            <input type="text" id="todoText" class="todo-input" placeholder="Görev Ekle...">
+            <img src="plus.png" alt="+" id="AddUpdateClick" onclick = "CreateToDoData()"> 
+        </div>
+
+        <h5 id="AlertMessage "></h5>
+
+        <ul id="list-items" class="list-items"></ul> <!-- dışarıdan yazıları alıp eklememize yardımcı olacak -->
+
+
+    </div>
+    <script type="text/javascript" src = "script.js" ></script>
+</body>
+</html>
